@@ -1,61 +1,65 @@
 html,
 body
- {
-  height: 100%;
-  margin: 0;
+{
+    height: 100%;
+    margin: 0;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #007bff; /* Cor de fundo inicial */
-  color: #fff;   /* Cor do texto inicial */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #007bff; /* Cor de fundo inicial */
+    color: #fff;   /* Cor do texto inicial */
+}
+
+#wrapper {
+    margin-bottom: 85px;
 }
 
 .container-fluid {
-  min-height: 100%;
+    min-height: 100%;
 }
 
 blockquote {
-  font-size: 24px;
-  border-left: 5px solid #fff; /* Cor da borda esquerda inicial */
-  word-wrap: break-word; /* Garante que o texto não saia do container */
-  transition: 2s ease-in-out;
+    font-size: 24px;
+    border-left: 5px solid #fff; /* Cor da borda esquerda inicial */
+    word-wrap: break-word; /* Garante que o texto não saia do container */
+    transition: 2s ease-in-out;
 }
 
 #quote-text {
-  font-size: 30px;
+    font-size: 30px;
 }
 
 button {
-  display: flex;
-  position: relative;
-  white-space: pre-wrap; /* Garante que o texto do botão não saia do container */
+    display: flex;
+    position: relative;
+    white-space: pre-wrap; /* Garante que o texto do botão não saia do container */
 }
 
 footer {
-  padding: 20px;
-  font-size: 15px;
-  transition: 2s ease-in-out;  /* Para fazer com que o nome do autor tenha a mesma transição */
+    padding: 20px;
+    font-size: 15px;
+    transition: 2s ease-in-out;  /* Para fazer com que o nome do autor tenha a mesma transição */
 }
 
 i {
-  width: 45px;
-  height: 40px;
-  font-size: 35px;
+    width: 45px;
+    height: 40px;
+    font-size: 35px;
 }
 
 .footer {
-  position: absolute;
-  bottom: 0px;
-  left: 70px;
-  color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 70px;
+    color: white;
 }
 
 .icons {
-  display: flex;
-  align-items: start;
-  justify-content: center;
+    display: flex;
+    align-items: start;
+    justify-content: center;
 }
